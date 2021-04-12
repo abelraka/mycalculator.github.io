@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.button{
+    cursor: pointer;
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    
+}
+.view{
+    margin: 5px;
+    font-size: 30px;
+    padding: 5px;
+    width: 265px;
+    padding: 20px;
+}
+.container{
+    position: absolute;
+    left: 37.5%;
+    top: 10%;
+    border: black;
+    background-color: black;
+    padding: 20px;
+}

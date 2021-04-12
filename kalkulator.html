@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="kalkulator.css">
+        <script src="kalkulator.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form name="formKalkulator">
+                <input type="text" class="view" name="viewAngka">
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" class="button" onclick="clearAll()" value="c" style="background-color: orange;"></td>
+                    <td colspan="2"><input type="button" class="button" onclick="bcksp()" value="bcksp" style="width: 128px; background-color: orange;" ></td>
+                    <td><input type="button" class="button" onclick="insertAngka('+')" value="+" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" onclick="insertAngka(7)" value="7"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(8)" value="8"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(9)" value="9"></td>
+                    <td><input type="button" class="button" onclick="insertAngka('-')" value="-" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" onclick="insertAngka(4)" value="4"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(5)" value="5"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(6)" value="6"></td>
+                    <td><input type="button" class="button" onclick="insertAngka('*')" value="x" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" onclick="insertAngka(1)" value="1"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(2)" value="2"></td>
+                    <td><input type="button" class="button" onclick="insertAngka(3)" value="3"></td>
+                    <td><input type="button" class="button" onclick="insertAngka('/')" value="/" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" onclick="insertAngka('.')" value="."></td>
+                    <td><input type="button" class="button" onclick="insertAngka(0)" value="0"></td>
+                    <td colspan="2"><input type="button" class="button" onclick="equal()" value="=" style="width: 128px; background-color: green;"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
